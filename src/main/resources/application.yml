@@ -1,0 +1,10 @@
+server:
+  port: 8000
+logging:
+  level:
+    root: warn
+    org:
+      springframework:
+        h2: info
+  path: /usr/local/files/
+  file: springboot.log
